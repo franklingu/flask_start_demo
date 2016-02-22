@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    """Response with hello world only."""
+    """Response with hello world text only."""
     return 'Hello World!'
 
 if __name__ == '__main__':
